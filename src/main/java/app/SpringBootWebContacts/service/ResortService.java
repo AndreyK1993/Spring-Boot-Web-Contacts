@@ -1,7 +1,7 @@
 package app.SpringBootWebContacts.service;
 
-import app.SpringBootWebTours.entity.Resort;
-import app.SpringBootWebTours.repository.ResortRepository;
+import app.SpringBootWebContacts.entity.Resort;
+import app.SpringBootWebContacts.repository.ResortRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

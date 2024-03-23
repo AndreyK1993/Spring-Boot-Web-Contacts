@@ -5,7 +5,9 @@
 -- Тому такий функціонал у додатку не прописуємо.
 -- Можемо створити БД через візуальний інструмент, наприклад,
 -- MySQL Workbench.
-CREATE DATABASE demo_db;
+CREATE DATABASE contacts_web_new_db;
+
+USE contacts_web_new_db;
 
 
 -- ТАБЛИЦІ
@@ -18,20 +20,24 @@ CREATE DATABASE demo_db;
 -- MySQL Workbench.
 
 
-CREATE TABLE IF NOT EXISTS places
+CREATE TABLE IF NOT EXISTS contacts
 ( id INTEGER NOT NULL AUTO_INCREMENT,
   image VARCHAR(255) NOT NULL,
-  name VARCHAR(255) NOT NULL,
-  description VARCHAR(255) NOT NULL,
+  first_name VARCHAR(255) NOT NULL,
+  last_name VARCHAR(255) NOT NULL,
+  phone VARCHAR(20) NOT NULL,
   PRIMARY KEY (id)
 );
 
 
 INSERT INTO
-	places (image, name, description)
+	contacts (image, first_name, last_name, phone)
 VALUES
-	('azure-beach.jpg', 'Azure beach', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'),
-	('sunny-club.jpg', 'Sunny Club', 'Donec tempor mi nulla, eu aliquam massa rutrum eu.'),
-	('fish-farm.jpg', 'Fish farm', 'Nam tempus ultrices mauris.');
+	('Portrait1', 'John', 'Smith', '+1 (123) 456-7890'),
+    ('Portrait2', 'Emily', 'Johnson', '+1 (234) 567-8901'),
+    ('Portrait3', 'Michael', 'Williams', '+1 (345) 678-9012'),
+    ('Portrait4', 'Jessica', 'Brown', '+1 (456) 789-0123'),
+    ('Portrait5', 'Christopher', 'Jones', '+1 (567) 890-1234'),
+    ('Portrait6', 'Sarah', 'Davis', '+1 (678) 901-2345');
 
 

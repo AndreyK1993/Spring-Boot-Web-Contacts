@@ -1,7 +1,7 @@
 package app.SpringBootWebContacts.repository;
 
-import app.SpringBootWebTours.entity.Resort;
-import app.SpringBootWebTours.utils.Constants;
+import app.SpringBootWebContacts.entity.Resort;
+import app.SpringBootWebContacts.utils.Constants;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.springframework.core.io.ClassPathResource;
