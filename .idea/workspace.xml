@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03c137f4-cefd-436b-b5e6-9d9d82e320c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/service/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/files/resorts.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INFO/SQLs.sql" beforeDir="false" afterPath="$PROJECT_DIR$/INFO/SQLs.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/entity/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/entity/Contacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/repository/PlaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/repository/PlaceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/repository/ResortRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/repository/ResortRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/service/PlaceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/service/ResortService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/service/ResortService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/icons/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/azure-beach.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fish-farm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hotel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/palms_1920.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/resort-01_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/resort-02_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/resort-03_640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sunny-club.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/repository/PlaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/repository/ContactRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringBootWebContacts/service/ContactService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/andrey/Desktop/Java Pro/Практика/Spring-Boot-Web-Contacts/Spring-Boot-Web-Contacts",
+    "last_opened_file_path": "/Users/andrey/Desktop/Java Pro/Практика/Spring-Boot-Web-Contacts/Spring-Boot-Web-Contacts/src/main/resources/static",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -63,6 +49,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/app" />
@@ -106,13 +93,22 @@
       <option name="project" value="LOCAL" />
       <updated>1711186207618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add changes">
+      <option name="closed" value="true" />
+      <created>1711194070419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711194070419</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Add changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add changes" />
   </component>
 </project>

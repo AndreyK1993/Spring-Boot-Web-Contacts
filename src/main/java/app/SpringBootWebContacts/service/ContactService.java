@@ -1,7 +1,7 @@
 package app.SpringBootWebContacts.service;
 
 import app.SpringBootWebContacts.entity.Contacts;
-import app.SpringBootWebContacts.repository.PlaceRepository;
+import app.SpringBootWebContacts.repository.ContactRepository;
 import app.SpringBootWebContacts.utils.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,7 +14,7 @@ import java.util.stream.StreamSupport;
 public class ContactService {
 
     @Autowired
-    PlaceRepository repository;
+    ContactRepository repository;
 
     public List<Contacts> getContacts() {
         Iterable<Contacts> iterable = repository.findAll();

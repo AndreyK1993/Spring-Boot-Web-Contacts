@@ -18,6 +18,6 @@ import org.springframework.stereotype.Repository;
 // базову функціональність CRUD репозиторію.
 // https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.htmll
 @Repository
-public interface PlaceRepository extends CrudRepository<Contacts, Integer> {
+public interface ContactRepository extends CrudRepository<Contacts, Integer> {
 
 }

@@ -15,12 +15,13 @@ public class HomeController {
 
     @Autowired
     ContactService contactService;
+
     @Autowired
     ResortService resortService;
 
     @GetMapping("/")
     public String getHome(Model model) throws URISyntaxException, IOException {
-        model.addAttribute("places", contactService.getContacts());
+        model.addAttribute("contacts", contactService.getContacts());
         model.addAttribute("resorts", resortService.getResorts());
         return "home";
     }
