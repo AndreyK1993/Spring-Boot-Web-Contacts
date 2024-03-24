@@ -33,11 +33,11 @@ CREATE TABLE IF NOT EXISTS contacts
 INSERT INTO
 	contacts (image, first_name, last_name, phone)
 VALUES
-	('Portrait1', 'John', 'Smith', '+1 (123) 456-7890'),
-    ('Portrait2', 'Emily', 'Johnson', '+1 (234) 567-8901'),
-    ('Portrait3', 'Michael', 'Williams', '+1 (345) 678-9012'),
-    ('Portrait4', 'Jessica', 'Brown', '+1 (456) 789-0123'),
-    ('Portrait5', 'Christopher', 'Jones', '+1 (567) 890-1234'),
-    ('Portrait6', 'Sarah', 'Davis', '+1 (678) 901-2345');
+	('Portrait1.jpg', 'John', 'Smith', '+1 (123) 456-7890'),
+    ('Portrait2.jpg', 'Emily', 'Johnson', '+1 (234) 567-8901'),
+    ('Portrait3.jpg', 'Michael', 'Williams', '+1 (345) 678-9012'),
+    ('Portrait4.jpg', 'Jessica', 'Brown', '+1 (456) 789-0123'),
+    ('Portrait5.jpg', 'Christopher', 'Jones', '+1 (567) 890-1234'),
+    ('Portrait6.jpg', 'Sarah', 'Davis', '+1 (678) 901-2345');
 
 
